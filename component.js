@@ -1,5 +1,6 @@
 function Component(mediator){
     this.mediator = mediator;
+    this.mediator.register(this);
 }
 
 Component.prototype.execute = function(message, sender) {

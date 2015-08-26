@@ -22,10 +22,6 @@ c3.execute = function(data) {
   console.log("c3: "+data);
 }
 
-mediator.register(c1);
-mediator.register(c2);
-mediator.register(c3);
-
 c1.post('hello');
 console.log('-------------------');
 c2.post('world');
