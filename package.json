@@ -1,0 +1,19 @@
+{
+  "name": "mediator-demo",
+  "version": "1.0.0",
+  "description": "a mediator pattern demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juntao Qiu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abruzzi/mediator-demo.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "node-notifier": "^4.2.3"
+  }
+}
